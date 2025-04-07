@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "MarinesBold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2502-1@1.0/MarinesBold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MarinesRegular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2502-1@1.0/MarinesRegular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 10px;
+  line-height: 1.5;
+  color: #000;
+  scroll-behavior: smooth;
+  /* overflow-x: hidden; */
+  text-size-adjust: 100%;
+  letter-spacing: -0.23px;
+  font-family: "MarinesBold", sans-serif;
+  word-break: break-all;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+img {
+  vertical-align: middle;
+  border: 0;
+}
